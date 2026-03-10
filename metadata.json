@@ -1,0 +1,5 @@
+{
+  "name": "Pic-to-Purchase Vision Engine",
+  "description": "Un'intelligenza artificiale specializzata nel riconoscimento visivo per e-commerce. Analizza immagini per estrarre prodotti, brand, varianti e query di ricerca perfette.",
+  "requestFramePermissions": []
+}

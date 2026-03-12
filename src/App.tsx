@@ -93,7 +93,7 @@ Devi restituire un URL pubblico e diretto a un'immagine ad alta risoluzione (pre
 Assicurati che l'URL sia accessibile. Restituisci SOLO un oggetto JSON con la chiave "url".`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-3-flash-preview',
         contents: prompt,
         config: {
           tools: [{ googleSearch: {} }],
@@ -175,7 +175,7 @@ Restituisci il risultato ESATTAMENTE in questa struttura JSON:
 }`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-3-flash-preview',
         contents: [
           {
             role: 'user',
